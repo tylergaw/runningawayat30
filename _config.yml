@@ -1,0 +1,9 @@
+title: "Running Away at 30"
+source: "./src"
+destination: "./public"
+url: "http://runningawayat30.com"
+
+permalink: pretty
+
+# Build settings
+markdown: kramdown
