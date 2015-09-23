@@ -1,7 +1,4 @@
-body {
-  background-color: grey;
-
-  a {
-    color: orange;
-  }
-}
+@import "normalize";
+@import "typography";
+@import "general";
+@import "banner";

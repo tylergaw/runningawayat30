@@ -3,12 +3,17 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="typography--roboto-mono">
 
     {% include header.html %}
 
-    {{ content }}
+    <main role="main" class="layout-restricted-container">
+      {{ content }}
+    </main>
 
+    <footer role="contentinfo" class="layout-restricted-container">
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+    </footer>
   </body>
 
 </html>

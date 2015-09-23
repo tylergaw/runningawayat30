@@ -1,0 +1,21 @@
+[role="banner"] {
+  background: #ffa691 url("../images/hero-bg-large.jpg") no-repeat center top;
+  background-size: cover;
+  padding-top: 32%;
+  position: relative;
+}
+
+.banner__title {
+  background: transparent url("../images/title.png") no-repeat center -20px;
+  background-size: 100%;
+  display: block;
+  height: 100%;
+  left: 14%;
+  max-width: 1234px;
+  overflow: hidden;
+  position: absolute;
+  text-decoration: none;
+  text-indent: -100%;
+  top: 0;
+  width: 68%;
+}
